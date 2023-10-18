@@ -10,6 +10,7 @@ from probeinterface.plotting import plot_probe, plot_probe_group
 import matplotlib.pyplot as plt
 from spikeinterface import curation
 from spikeinterface.widgets import plot_timeseries
+import spikeinterface as si  # TODO
 
 # data_path = Path(r"X:\neuroinformatics\scratch\jziminski\ephys\test_data\sara\100323\2023-10-03_18-57-09\Record Node 101\experiment1")  Mounted drive on windows
 data_path = Path(
