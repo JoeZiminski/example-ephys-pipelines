@@ -67,7 +67,7 @@ sorting = run_sorter(
 # quality metrics from the waveforms.
 sorting = sorting.remove_empty_units()
 
-sorting = curation.remove_excess_spikes(sorting, self.preprocessed_recording)
+sorting = curation.remove_excess_spikes(sorting, preprocessed_recording)
 
 # The way spikeinterface is setup means that quality metrics are
 # calculated on the spikeinterface-preprocessed, NOT the kilosort
